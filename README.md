@@ -23,7 +23,7 @@ You can go to wix.com, open the editor, and drag a button to your website to see
 - You should use composites (containing controls) from wix-base-ui. **Don't** use controls directly.
 - You **don't** need to add additional CSS (all needed styles are already implemented).
 - You **don't** need to implement the exact behavior of that settings panel appearing in production - follow the instructions below.
-- The media image is placed inside `src/assets`, you can use [Yoshi](https://bo.wix.com/pages/yoshi/docs/styles-and-assets/assets/`) to load and pass it as `src`.
+- The media image is placed inside `src/assets` - you can use [Yoshi](https://bo.wix.com/pages/yoshi/docs/styles-and-assets/assets/) to import and pass it as `src`.
 
 ### Application Behavior
 
