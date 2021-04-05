@@ -20,11 +20,13 @@ You can go to wix.com, open the editor, and drag a button to your website to see
 
 ### General
 
-- You should use composites (containing controls) from wix-base-ui. **Don't** use controls directly.
+- You should use composites (containing controls) from wix-base-ui.
+- You **shouldn't** use controls directly (except the divider separating the composites).
 - You **don't** need to add additional CSS (all needed styles are already implemented).
 - You **don't** need to implement the exact behavior of that settings panel appearing in production - follow the instructions below.
 - You **don't** need to make the buttons inside `PanelHeader` operate. They are only for the panel visual simulation.
 - The media image is placed inside `src/assets` - you can use [Yoshi](https://bo.wix.com/pages/yoshi/docs/styles-and-assets/assets/) to import and pass it as `src`.
+- The divider separating the composites can be used directly by the appropriate control.
 
 ### Application Behavior
 
@@ -38,11 +40,25 @@ You should implement the missing view according to the following instructions.
 
 There are three options - "Text Only", "Icon Only" & "Text and Icon". Each state changes the relevant compositions accordingly. Note that both dropdown and link sections are fixed and should appear in all (those three) views.
 
-2. "Text Only" view contains an input with a label from above:
+2. The first view is "Text Only" which should contain an input with a label from above:
 
 <p align="center">
   <img src="images/2.png" width="600">
 </p>
+
+3. The second view is "Icon Only" which should contain an image button (to load **theoretically** an icon image from the media manager) and an input with label below:
+
+<p align="center">
+  <img src="images/3.png" width="600">
+</p>
+
+4. The third view is "Text and Icon" which should contain the content of both previous views:
+
+<p align="center">
+  <img src="images/4.png" width="600">
+</p>
+
+Try to reuse and not re-implement them.
 
 ## How to Start
 
