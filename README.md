@@ -14,7 +14,7 @@ The exercise is to implement a panel that appears to be like Button's settings p
   <img src="images/demo.gif" width="800">
 </p>
 
-You can go to wix.com, open the editor, and drag a button to your website to see its settings panel in reality.
+You can go to [wix.com](https://wix.com), open the editor, and drag a button to your website to see its settings panel in reality.
 
 ## Guidelines
 
@@ -46,7 +46,7 @@ There are three options - "Text Only", "Icon Only" & "Text and Icon". Each state
   <img src="images/2.png" width="600">
 </p>
 
-3. The second view is "Icon Only" which should contain an image button (to load **theoretically** an icon image from the media manager) and an input with label below:
+3. The second view is "Icon Only" which should contain an image button (in production it's being used to load an icon image from the media manager, but you don't open anything) and an input with label below:
 
 <p align="center">
   <img src="images/3.png" width="600">
@@ -64,6 +64,6 @@ Try to reuse and not re-implement them.
 
 1. Clone this project.
 2. Run `npm install` which will already install for you wix-base-ui.
-3. Run `npm start` and navigate to [localhost:3000](localhost:3000) to see the initial application.
+3. Run `npm start` and navigate to [localhost:3000](http://localhost:3000) to see the initial application.
 
 Good luck! 🙃
