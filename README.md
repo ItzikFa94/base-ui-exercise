@@ -14,7 +14,7 @@ The exercise is to implement a panel that appears to be like Button's settings p
   <img src="images/demo.gif" width="800">
 </p>
 
-You can go to [wix.com](https://wix.com), open the editor, and drag a button to your website to see its settings panel in reality.
+You can go to [wix.com](https://wix.com), open the editor and drag a button to your website to see its settings panel in reality.
 
 ## Guidelines
 
@@ -26,7 +26,6 @@ You can go to [wix.com](https://wix.com), open the editor, and drag a button to 
 - You **don't** need to implement the exact behavior of that settings panel appearing in production - follow the instructions below.
 - You **don't** need to make the buttons inside `PanelHeader` operate. They are only for the panel visual simulation.
 - The media image is placed inside `src/assets` - you can use [Yoshi](https://bo.wix.com/pages/yoshi/docs/styles-and-assets/assets/) to import and pass it as `src`.
-- The divider separating the composites can be used directly by the appropriate control.
 
 ### Application Behavior
 
@@ -58,7 +57,7 @@ There are three options - "Text Only", "Icon Only" & "Text and Icon". Each state
   <img src="images/4.png" width="600">
 </p>
 
-Try to reuse and not re-implement them.
+Try reusing and not reimplementing them.
 
 ## How to Start
 
