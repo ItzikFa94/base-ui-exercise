@@ -1,7 +1,12 @@
 .root {
-  text-align: center;
+  --border-radius: 10px;
+
+  width: 288px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 18px 0 rgba(22, 45, 61, 0.27);
 }
 
-.title {
-  font-size: 20pt;
+.header {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
 }
