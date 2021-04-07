@@ -14,7 +14,7 @@ The exercise is to implement a panel that appears to be like Button's settings p
   <img src="images/demo.gif" width="800">
 </p>
 
-You can go to [wix.com](https://wix.com), open the editor and drag a button to your website to see its settings panel in reality.
+You can go to [wix.com](https://wix.com), open the editor and drag a button to your website to see how its settings panel behaves in reality (keep in mind that there might be visual gaps depending on skin/new changes). Having said that, we're not going to completely implement the real behavior, only focus on visual aspects.
 
 ## Guidelines
 
@@ -23,7 +23,7 @@ You can go to [wix.com](https://wix.com), open the editor and drag a button to y
 - You should use composites (containing controls) from wix-base-ui.
 - You **shouldn't** use controls directly (except the divider separating the composites).
 - You **don't** need to add additional CSS (all needed styles are already implemented).
-- You **don't** need to implement the exact behavior of that settings panel appearing in production - follow the instructions below.
+- You **don't** need to implement the complete behavior of Button's settings panel appearing in Wix Editor. Focus on visual aspects of the panel following the instructions below.
 - You **don't** need to make the buttons inside `PanelHeader` operate. They are only for the panel visual simulation.
 - The media image is placed inside `src/assets` - you can use [Yoshi](https://bo.wix.com/pages/yoshi/docs/styles-and-assets/assets/) to import and pass it as `src`.
 
